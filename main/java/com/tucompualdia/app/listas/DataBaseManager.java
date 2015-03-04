@@ -63,7 +63,7 @@ public class DataBaseManager {
     }
 
     public Cursor cargarCursorContactos(){
-        String[] columnas = new String[]{CN_ID,CN_NAME,CN_PHONE,CN_PETITION,CN_FECHACREACION};
+        String[] columnas = new String[]{CN_ID,CN_NAME,CN_PHONE,CN_PETITION};
 
         return db.query(TABLE_NAME,columnas,null,null,null,null,CN_NAME+" ASC");
 
