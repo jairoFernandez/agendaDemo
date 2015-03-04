@@ -1,0 +1,19 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.tucompualdia.app.listas.DatosActivity">
+    <item android:id="@+id/action_settings" android:title="@string/action_settings"
+        android:orderInCategory="100" app:showAsAction="never" />
+    <item
+        android:id="@+id/editar"
+        android:title="Editar"
+        android:icon="@drawable/editar"
+        app:showAsAction="always"
+        />
+    <item
+        android:id="@+id/eliminar"
+        android:title="Eliminar"
+        android:icon="@drawable/eliminar"
+        app:showAsAction="always"
+        />
+</menu>
